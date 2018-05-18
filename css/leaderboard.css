@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+.head {
+
+  border: none;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  text-align: center;
+  cursor: default;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: #222;
+  padding: 17px 60px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.center {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -20px;
+  background-color: #ff9a53;
+  color: white;
+  box-shadow: 4px 4px 0px 1px #e7e7e7;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: url("../resources/backgrounds/background2.png") 50% -150px no-repeat;
+  font-family: 'Roboto', sans-serif;
+}
+
+#tableLeaderboard {
+  text-align:center;
+  padding-top: 20px;
+  overflow: auto;
+  height:500px;
+}
+​
+
+#tableLeaderboard > * {
+    margin: 10px 0;
+}
+
+#tableLeaderboard img {
+  padding: 5px;
+}
+
+.menu {
+  background-color: #ff9a53;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  color: #5fb2b4;
+}
+
+.rightFoot {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

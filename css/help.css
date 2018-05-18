@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("../resources/backgrounds/background2.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#home_div{
+  position: absolute;
+  top: 78%;
+  left: 30%;
+  font-size: 35px;
+  background-color: #ff9a53;
+  color: white;
+  padding: 10px;
+  box-shadow: 4px 4px 0px 1px #808080;
+}
+
+#logoID{
+  position: absolute;
+  left: 5%;
+  top:3%;
+
+}
+
+#help_config {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  width: 1000px;
+  height: 300px;
+}
+
+#help_config .arrowsImg {
+    width:30px;
+    height:30px;
+}
+
+#spaceKey {
+  width:70px;
+  height:30px;
+}
+
+
+#controlsID {
+  position: absolute;
+  top:50%;
+  left:1%;
+}
+
+#home_div a {
+  text-decoration: none;
+  color: white;
+}
+#home_div a:hover {
+  color: #5fb2b4;
+}

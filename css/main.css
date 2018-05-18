@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url("../resources/backgrounds/background2.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+#score_div{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 10%;
+  font-size: 55px;
+  background-color: #ff9a53;
+  color: white;
+  padding: 10px;
+  box-shadow: 4px 4px 0px 1px #808080;
+}
+
+#restart_div{
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 10%;
+  font-size: 35px;
+  background-color: #ff9a53;
+  color: white;
+  padding: 10px;
+  box-shadow: 4px 4px 0px 1px #808080;
+}
+#Settings{
+  position: absolute;
+  margin-top: 29%;
+  margin-left: 10%;
+  font-size: 35px;
+  background-color: #ff9a53;
+  color: white;
+  padding: 10px;
+  box-shadow: 4px 4px 0px 1px #808080;
+}
+#Leaderboard{
+  position: absolute;
+  margin-top: 33%;
+  margin-left: 10%;
+  font-size: 35px;
+  background-color: #ff9a53;
+  color: white;
+  padding: 10px;
+  box-shadow: 4px 4px 0px 1px #808080;
+}
+#quit_div{
+  position: absolute;
+  margin-top: 37%;
+  margin-left: 10%;
+  font-size: 35px;
+  background-color: #ff9a53;
+  color: white;
+  padding: 10px;
+  box-shadow: 4px 4px 0px 1px #808080;
+}
+
+#pause_div {
+  position: absolute;
+  right: 30%;
+  top: 40%;
+  font-size: 35px;
+  background-color: #ff9a53;
+  color: white;
+  padding: 10px;
+  box-shadow: 4px 4px 0px 1px #808080;
+}
+#mute_div {
+  position: absolute;
+  right: 30%;
+  top: 49%;
+  background-color: #ff9a53;
+  color: white;
+  padding:10px;
+  box-shadow: 4px 4px 0px 1px #808080;
+}
+
+#help_config {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  width: 500px;
+  height: 300px;
+}
+
+#startCounterDiv {
+  z-index: 1000;
+  position: absolute;
+  right: 44.5%;
+  top: 20%;
+  padding: 20px 40px;
+  color: white;
+  background-color: #2CB89E;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+#player_info {
+  font-size: 14px;
+}
+
+#restart_div:hover {
+  cursor: pointer
+}
+#quit_div:hover {
+  cursor: pointer
+}
+#pause_div:hover {
+  cursor: pointer
+}
+#Settings:hover {
+  cursor: pointer
+}
+#Leaderboard:hover {
+  cursor: pointer
+}
+
+
+.number {
+  font-weight: bold;
+  color: #5c5e45;
+}

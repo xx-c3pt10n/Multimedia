@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  background-color: #ff9a53;
+  color: white;
+  box-shadow: 4px 4px 0px 1px #e7e7e7;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: url("../resources/backgrounds/background2.png") 50% -150px no-repeat;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+  background-color: #ff9a53;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  color: #5fb2b4;
+}
+
+.rightFoot {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#logoID {
+  position: fixed;
+  top: 1%;
+  left: 38%;
+}
+
+/*#logoID {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#logoID:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+*/

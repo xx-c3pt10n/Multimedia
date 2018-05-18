@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Epic BattleDrift!</title>
+		<meta name= viewport content= width=device-width initial-scale=1 />﻿
+		<link href="./css/main.css" rel="stylesheet" />
+		<link href="./css/hover-min.css" rel="stylesheet" />
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/Main.js" defer="true"></script>
+		<script type="text/javascript" src="js/Rectangle.js"></script>
+		<script type="text/javascript" src="js/SpriteImage.js" defer="true"></script>
+		<script type="text/javascript" src="js/Car.js" defer="true"></script>
+		<script type="text/javascript" src="js/Bullet.js" defer="true"></script>
+		<script type="text/javascript" src="js/Boogie.js" defer="true"></script>
+		<script type="text/javascript" src="js/PoliceCar.js" defer="true"></script>
+		<script type="text/javascript" src="js/Roadblock.js" defer="true"></script>
+		<script type="text/javascript" src="js/Oil.js" defer="true"></script>
+		<script type="text/javascript" src="js/Player.js" defer="true"></script>
+		<script type="text/javascript" src="js/Line.js" defer="true"></script>
+		<script type="text/javascript" src="js/Fuel.js" defer="true"></script>
+	</head>
+
+
+	<body>
+
+<div id="help_config">
+	<img id="controlsID" src="resources/helpMenu/allControls.png" width="400" height="300"></img>
+</div>
+
+		<div id="score_div">Score: <span class="number" id="score">0</span>
+			<div id="player_info">
+				<p style="text-align: center;">Player Info:</p>
+				<p>• Max Score: <span class="number" id="maxScoreID">0</span></p>
+				<p id="pointsIDp">• Points: <span class="number" id="pointsID">0</span> (*0.01 adds to score in the end)</p>
+			  <p id="bulletIDp">• Bullet: <img id="weaponID" src="resources/bullets/bullet1.png" width="10" height="20"> (Damage: <span id="weaponDamageID">10</span>)</p>
+				<p id="carsKilledIDp">• Cars Killed: <span class="number" id="carsKilledID">0</span> (*0.3 adds to score in the end)</p>
+				<p id="carsOvertakenIDp">• Cars Overtaken: <span class="number" id="carsOvertakenID">0</span> (*0.3 adds to score in the end)</p>
+				<p id="fuelIDp">• Fuel: <span class="number" id="fuelID">100</span></p>
+			</div>
+		</div>
+		<div id="restart_div" class="hvr-underline-from-center">Restart!</div>
+		<div id="Settings" class="hvr-underline-from-center">Settings</div>
+		<div id="Leaderboard" class="hvr-underline-from-center">Leaderboard</div>
+		<div id="pause_div" class="hvr-underline-from-center">pause</div>
+		<div id="mute_div" class="hvr-underline-from-center"> <img id="muteImg" src="resources/extra/soundPlay.png"></div>
+		<div id="quit_div" class="hvr-underline-from-center">Quit</div>
+		<div id="startCounterDiv">Starting in <span id="startCounter">3</span>...</div>
+		<canvas id="canvas" width="300" height="800" style="display: block; margin: auto; background: rgba(70, 70, 70, 1)"></canvas>
+	</body>
+</html>
